@@ -1,0 +1,13 @@
+Clean architecture:
+ - Good as an introduction
+ - Dependency management
+
+Clean Coder:
+ - How to be a professional
+   - 20h extra
+   - Helping others
+   - Pomodoro (tomato methodology)
+   - Doing estimations (1P + 4N + 1O)
+   - Agile
+   - Test driven dev
+   - Conclusion
