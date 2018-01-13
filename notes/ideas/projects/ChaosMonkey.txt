@@ -1,0 +1,20 @@
+Introduction
+ - Chaos monkey meaning
+ - Thinking up a case
+ - Goal
+
+Case description
+ - Overly complex text analyser
+
+Materials
+ - 9 Raspberry pis
+ - 4 Orange pi
+ - Hackintosh
+ - EC2 servers
+
+Technologies
+ - Delay as much as possible
+ - Divide case into sub cases
+ - Create business logic (UML)
+ -
+npm

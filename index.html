@@ -10,54 +10,74 @@
 </head>
 <body>
 <!--Menu goes here-->
-<a href="projects/projects.html">Projects</a>
-<a href="blog/blog.html">Blog</a>
+
 <!--This part should be dynamic-->
 <div class="main-container container">
-    <div class="blog-area row">
-        <div class="article">
-            <h3 class="article-title">Well.. It seems like I'll be making a blog.</h3>
-            <div class="article-content">
-            <p>This is something I've been wanting to do for a really long time now, this blog
-                will be a way for me
-                to share some opinions on some new technologies and projects I'm working on. Let's start with a small
-                Q&A!</p>
-            <h3>Goal</h3>
-            <p>The goal of this blog is to teach you something, and to share some kind of knowledge.</p>
-            <h3>Who am I?</h3>
-            <p>I'm a passionate Developer, a few years ago I picked Java as my religion and now I'm trying to learn
-                everything around it. I'm also an avid reader, and I try to read as many books as I can. I firmly believe that
-                reading is one of the best way to gain some new insights. </p>
-            <h3>Why not a CMS?</h3>
-            <p>This blog is hosted on github, why don't I use a CMS? Am I so stingy that I don't want to pay for some wordpress hosting?
-            Well... Not really. I want to be able to write this blog from within my IDE, this IDE is like my home/safe zone and I feel
-            like it's way easier to write here than on some CMS.</p>
-            <h3>Content</h3>
-            <p>The content on this blog will be divided in <strong>three</strong> types:</p>
-            <ul>
-                <li>
-                    <b>Projects:</b> Here I'll discuss the projects I'm working on. (Ex. this blog)
-                </li>
-                <li><b>Blog:</b> You'll find mostly short articles about a technology I tried and things I saw or experienced.</li>
-                <li><b>Books:</b> I'm an avid reader and I plan on sharing my thoughts about the books I read.</li>
-            </ul>
-            <p>
-                I'll try to diversify the content as much as possible. Every content block will also have some notes that I want to share,
-                they may not seem interesting now, but once I think I'll be able to make good use of them once I've made a few blog posts.
-            </p>
-            <h3>This blog is ugly</h3>
-            <p>For now.. <br> But you'll see, this will become pretty pleasing for the eyes. Or not. (I'm not a Front-end dev after all...)</p>
+    <div class="desktop medium">
+        <div class="left-panel">
+            <div class="left-panel-content">
+            <div class="arrow"></div>
+                <div class="menu">
+                    <ul class="menu-list">
+                        <li>Blog</li>
+                        <li>
+                            Projects
+                        </li>
+                        <li>
+                            About me
+                        </li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+
+
             </div>
-            <div class="article-info row">
-            <div class="col-3">Saturday 13/01/2018</div>
-            <div class="col-9 article-tags">Tags: introduction blog Pix-I</div>
+        </div>
+        <div class="right-panel">
+            <div class="article">
+                <h3 class="article-title">Well.. It seems like I'll be making a blog.</h3>
+                <div class="article-content">
+                    <p>This is something I've been wanting to do for a really long time now, this blog
+                        will be a way for me
+                        to share some opinions on some new technologies and projects I'm working on. Let's start with a small
+                        Q&A!</p>
+                    <h3>Goal</h3>
+                    <p>The goal of this blog is to teach you something, and to share some kind of knowledge.</p>
+                    <h3>Who am I?</h3>
+                    <p>I'm a passionate Developer, a few years ago I picked Java as my religion and now I'm trying to learn
+                        everything around it. I'm also an avid reader, and I try to read as many books as I can. I firmly believe that
+                        reading is one of the best way to gain some new insights. </p>
+                    <h3>Why not a CMS?</h3>
+                    <p>This blog is hosted on github, why don't I use a CMS? Am I so stingy that I don't want to pay for some wordpress hosting?
+                        Well... Not really. I want to be able to write this blog from within my IDE, this IDE is like my home/safe zone and I feel
+                        like it's way easier to write here than on some CMS.</p>
+                    <h3>Content</h3>
+                    <p>The content on this blog will be divided in <strong>three</strong> types:</p>
+                    <ul>
+                        <li>
+                            <b>Projects:</b> Here I'll discuss the projects I'm working on. (Ex. this blog)
+                        </li>
+                        <li><b>Blog:</b> You'll find mostly short articles about a technology I tried and things I saw or experienced.</li>
+                        <li><b>Books:</b> I'm an avid reader and I plan on sharing my thoughts about the books I read.</li>
+                    </ul>
+                    <p>
+                        I'll try to diversify the content as much as possible. Every content block will also have some notes that I want to share,
+                        they may not seem interesting now, but once I think I'll be able to make good use of them once I've made a few blog posts.
+                    </p>
+                    <h3>This blog is ugly</h3>
+                    <p>For now.. <br> But you'll see, this will become pretty pleasing for the eyes. Or not. (I'm not a Front-end dev after all...)</p>
+                </div>
+                <div class="article-info row">
+                    <div class="col-3">Saturday 13/01/2018</div>
+                    <div class="col-9 article-tags">Tags: introduction blog Pix-I</div>
+                </div>
             </div>
         </div>
     </div>
-
 </div>
 
 <!--Js libs come here-->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -67,5 +87,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"
         integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
         crossorigin="anonymous"></script>
+
+<script src="js/dist/bundle.js"></script>
 </body>
 </html>
