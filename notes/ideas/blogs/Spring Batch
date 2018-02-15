@@ -1,0 +1,44 @@
+About Blog Post
+Not meant as a tutorial but rather a Poc/reference project
+
+About App
+Penguins rule over the world and need to execute some operations on secret documents. (Steal passwords)
+ - Database based
+Batch window is really small - Concurrency is important
+
+
+// Story
+Some penguins found an unprotected access to a database, the database was used to store unencrypted username/passwords.
+The site doesn't have anything interesting on it, but some users re-use their passwords for their online bit coin wallets.
+
+Batch operations needed: (constraints)
+ - Test username against 3 different websites.
+ - If successful transfer bitcoins
+ - Attack can only last a few seconds.
+ - To avoid issues you have to wait 5s before trying an username again on a website
+
+Info:
+ - There will be 5000 username/passwords
+ - Out of them,
+   - 100 have an account on ever website with 1 coin
+   - 50 have an account on one of the three websites with 3 coins
+ - Databases stored on 4 different servers. (Rasperry pis)
+
+//Needed
+ - An application that creates and stores data in DB
+ - 3 coin application with RestAPI? Or website
+ - Spring Batch application
+
+A database that contains non encrypted passwords,
+passwords will be dynamically generated
+
+About Spring Batch
+Spring Batch is an open source batch framework
+
+made in response to a need of a reusable architecture for batch processing
+made by Spring + Accenture
+
+Processing of high volumes of data
+Not a scheduler
+
+// Maybe talk about guide lines?
