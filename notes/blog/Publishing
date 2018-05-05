@@ -1,0 +1,5 @@
+When publishing a document, some code should be executed alongside the git push.
+The code should be responsible for the following things:
+ - Indexing articles
+ - Compiling tags into a json object accessible to the blog
+
